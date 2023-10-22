@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    gap: 20%;
+    padding: 40px 0;
+}
+
+.wrap {
+    background: url(../img/Img.png), lightgray 0px 0px / 100% 100% no-repeat;
+    width: 1280px;
+    height: 720px;
+
+}
+
+.wrap h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+
+}
+
+.wrap h1 span {
+    color: #FFC80A;
+    font-family: Playfair Display;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 90px;
+    color: #FFF;
+}
